@@ -1,0 +1,25 @@
+{
+  "name": "usb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "electron-rebuild --force",
+    "start": "electron ."
+  },
+  "build": {
+    "npmRebuild": "false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-hid": "^1.1.0",
+    "serialport": "^8.0.7",
+    "usb": "^1.6.2"
+  },
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-rebuild": "^1.10.0"
+  }
+}
